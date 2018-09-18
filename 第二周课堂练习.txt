@@ -1,14 +1,8 @@
-1¡¢'hello,world'.replace('l','*')
-
-
-2¡¢1.  ('Good'.lower()+'!')*3
+1ã€'hello,world'.replace('l','*')
+2ã€1.  ('Good'.lower()+'!')*3
        2.  (('Good'+'!')*3).lower()
-
-
-3¡¢'Fh1qoWe92QbvC'.swapcase()
-
-
-4¡¢str = "Fh1qoWe92QbvC"
+3ã€'Fh1qoWe92QbvC'.swapcase()
+4ã€str = "Fh1qoWe92QbvC"
 list=[]
 if str.isdigit():
     print(str)
@@ -17,17 +11,13 @@ else:
         if i>="0" and i<="9":
             list.append(i)
     print(list)
-
-5¡¢lst=[2,0,3,6,9]
+5ã€lst=[2,0,3,6,9]
 sorted(lst)
-
-
-6¡¢ l=[2,3,1,2,4,3]
+6ã€ l=[2,3,1,2,4,3]
 del l[3]
 del l[4]
 print (l)
-
-7¡¢
+7ã€
 a='aasdebbcaa'
 d={}
 for c in a:
@@ -35,10 +25,8 @@ for c in a:
         d[c]=(d[c]+1)
     else:
         d[c]=1
-
 print (d)
-
-8¡¢
+8ã€
 def running():
      num = 0
      letter= 0
@@ -55,25 +43,20 @@ def running():
          else:
              other+=1
      print (num,space,letter,other)
-
 running()
-
-
-9¡¢
+9ã€
 a = " a b c "
 "".join(a.split())
-
-
-10¡¢
+10ã€
 import random
 number = random.randint(1,100)
 number2 = 0
 while number2 != number:
-    number3 = input('ÇëÊäÈëÊı×Ö£º')
+    number3 = input('è¯·è¾“å…¥æ•°å­—ï¼š')
     number2 = int(number3)
     if number2 > number:
-        print('ÄúÊäÈëµÄÊı×Ö´óÁË£¡')
+        print('æ‚¨è¾“å…¥çš„æ•°å­—å¤§äº†ï¼')
     if number2 < number:
-        print('ÄúÊäÈëµÄÊı×ÖĞ¡ÁË£¡')
+        print('æ‚¨è¾“å…¥çš„æ•°å­—å°äº†ï¼')
     if number2 == number:
-        print('¹§Ï²£¬Äú²Â¶ÔÁË£¡')
+        print('æ­å–œï¼Œæ‚¨çŒœå¯¹äº†ï¼')
